@@ -1,0 +1,513 @@
+/* LARGER SCREENS  */
+@media (min-width:1199.98px) {
+    .lower-hashtag .testimonial {
+        display: none;
+    }
+}
+
+
+/* LARGE SIZE (LG) */
+@media (max-width:1199.98px) {
+    .home .home-banner .home-banner-text {
+        transform: translate(-85%, -50%);
+    }
+
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .offers .offer-box .offer-info .offer-title-1 {
+        margin-bottom: -10px;
+    }
+
+    .lower-hashtag .quote .hashtag-image {
+        margin-top: -20px;
+        height: 9.5vh;
+    }
+
+    .lower-hashtag .sign-up .email-box {
+        display: block;
+
+    }
+
+    .lower-hashtag .sign-up .email-box input {
+        height: 3.5vh;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .lower-hashtag .sign-up .sign-up-button {
+        display: block;
+    }
+
+    .lower-hashtag .sign-up-button button {
+        width: 100%;
+        margin-left: 0px;
+        height: 3.5vh;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-top: -100px;
+    }
+
+    /* Single Produt Css */
+
+    #product-details .single-product-img {
+        margin-right: 2rem;
+
+    }
+
+    #product-details .single-product-img>img {
+        height: 33.5rem;
+    }
+
+    .cart-button {
+        right: 118px;
+        top: 273px;
+    }
+
+    #product-details .single-product-details .also-available .card-overlay::before {
+        height: 71%;
+    }
+
+    #product-details .product-descrp .container .description {
+        margin-right: 3rem;
+        width: 45%;
+        margin-left: 2rem;
+    }
+
+    #more-products {
+        margin-bottom: 10rem;
+    }
+
+    #more-products .more-products-heading h4 {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    #more-products .also-look .pre-btn {
+        left: 25px;
+        width: 80px;
+    }
+
+    #more-products .also-look .nxt-btn {
+        right: 25px;
+        width: 80px;
+    }
+}
+
+
+
+/* MEDIUM SIZE (MD) */
+
+@media (max-width: 991.98px) {
+
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: 65% center;
+        height: 45vh;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-70%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 6rem;
+        margin-bottom: -5px;
+    }
+
+    .testimonial .carousel p {
+        transform: translate(-0%, 5%);
+    }
+
+    .lower-hashtag .quote .hashtag-image {
+        margin-bottom: 30px;
+        height: 15vh;
+    }
+
+    .lower-hashtag .sign-up .email-box {
+        display: block;
+
+    }
+
+    .lower-hashtag .sign-up .sign-up-button {
+        display: block;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    /* Single product css  */
+
+    #product-details .single-product-img>img {
+        height: auto;
+    }
+
+    #product-details .single-product-details .product-rating {
+        width: 30%;
+    }
+
+    #product-details .single-product-details select {
+        width: 7.5rem;
+    }
+
+    #product-details .single-product-details .cart-button {
+        top: 299px;
+        right: 31px;
+    }
+
+    #product-details .single-product-details .buynow-button {
+        width: 21rem;
+    }
+
+    #product-details .single-product-details .wishlist-button {
+        width: 21rem;
+    }
+
+    #product-details .single-product-details .also-available .card-overlay::before {
+        height: 65%;
+    }
+
+    #product-details .single-product-details .feature-icon {
+        width: 21rem;
+        
+    }
+
+    #more-products .also-look .pre-btn {
+        left: 22px;
+        width: 80px;
+    }
+
+    #more-products .also-look .nxt-btn {
+        right: 22px;
+        width: 80px;
+    }
+}
+
+/* EXTRA SMALL (XS) */
+
+@media (max-width: 575.98px) {
+
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: 65% center;
+        height: 35vh;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-100%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .home .home-banner .home-banner-text h2 {
+        font-size: 0.7rem;
+        margin-bottom: -10px;
+    }
+
+    .home .home-banner .home-banner-text a {
+        margin-left: 0px;
+        font-size: 0.6rem;
+        padding: 3.5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .testimonial .carousel p {
+        transform: translate(-0%, 5%);
+    }
+
+    .lower-hashtag .quote .hashtag-image {
+        margin-bottom: 30px;
+        height: 12vh;
+    }
+
+    .lower-hashtag .sign-up .email-box {
+        display: block;
+
+    }
+
+    .lower-hashtag .sign-up .sign-up-button {
+        display: block;
+    }
+
+    .lower-hashtag .sign-up .sign-up-button button {
+        font-size: 0.7rem;
+    }
+
+    .lower-hashtag .sign-up {
+        margin-top: 5em;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    /* Single product css  */
+
+    #product-details {
+        margin-top: 70px;
+    }
+
+    #product-details .container {
+        display: block;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    #product-details .single-product-details .cart-button {
+        display: none
+    }
+
+    #product-details .single-product-img {
+        width: 100%;
+    }
+
+    #product-details .single-product-details {
+        width: 100%;
+        margin-top: 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    #product-details .single-product-details h5 {
+        display: inline;
+    }
+
+    #product-details .single-product-details h2 {
+        display: inline;
+    }
+
+    /* #product-details .single-product-details select{
+        margin-bottom: 0px;
+    } */
+    /*#product-details .single-product-details input{
+        display: inline;
+    } */
+
+    #product-details .single-product-details .buynow-button {
+        display: none;
+    }
+
+    #product-details .single-product-details .wishlist-button {
+        display: none;
+    }
+
+    #product-details .single-product-details .feature-icon {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    #product-details .product-descrp{
+        display: block;
+    }
+    #product-details .product-descrp .container .description {
+        width: auto;
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }    
+
+    #product-details .product-descrp{
+        margin-top: 2.5rem;
+    }
+    #product-details .product-descrp .more-details{
+        width: auto;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    #product-details .product-descrp .more-details h6{
+        margin-top: 1rem;
+        margin-bottom: .8rem;
+    }
+    #product-details .product-descrp .more-details ul{
+        text-align: left;
+        margin-bottom: 0rem;
+    }
+    #more-products .also-look .pre-btn {
+        left: 5px;
+        width: 80px;
+    }
+
+    #more-products .also-look .nxt-btn {
+        right: 5px;
+        width: 80px;
+    }
+    #more-products .product-container{
+        padding: 0px 18vw;
+    }
+
+    /* Smartphone Portrait and Landscape */
+    .mobileShow {
+        z-index: 9999;
+        display: block flex;
+        bottom: 0;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        height: 3rem;
+        
+    }
+    .mobileShow .buynow-mob, .mobileShow .cart-mob{ 
+        width: 50%;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        /* font-weight:600;        */
+        text-transform: uppercase;
+    }
+    .mobileShow .buynow-mob{
+        background-color: #132043;
+    }
+    .mobileShow .cart-mob{
+        background-color: #a45d47;
+    }
+    .mobileShow .buynow-mob:focus{
+        background-color: rgb(15, 25, 51);
+    }
+    .mobileShow .cart-mob:focus{
+        background-color: #8c503e;
+    }
+    /* .mobileShow .buynow-mob:hover, .mobileShow .cart-mob:hover{
+        
+    }  */
+}
+
+/* @media only screen and (max-width: 575.98px) {
+    .mobileShow {
+        display: block;
+        width: 40%;
+        position: fixed;
+        bottom: -40px;
+        left: 50%;
+        margin: 0 0 0 -20%;
+    }
+} */
+/* EXTRA EXTRA SMALL (XXS) */
+
+@media (max-width: 360.98px) {
+
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: 65% center;
+        height: 35vh;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-70%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .home .home-banner .home-banner-text h2 {
+        font-size: 0.7rem;
+        margin-bottom: -10px;
+    }
+
+    .home .home-banner .home-banner-text a {
+        margin-left: 0px;
+        font-size: 0.6rem;
+        padding: 3.5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+
+    .product-list .product-image .sale {
+        font-size: 0.413rem;
+        top: 0.5rem;
+        left: 0.5rem;
+        line-height: normal;
+        padding-top: 0.15rem;
+        padding-bottom: 0.15rem;
+        padding-left: 0.4rem;
+        padding-right: 0.1rem;
+        border-radius: 3px;
+        letter-spacing: 3px;
+    }
+
+    .product-list .product-name h3 {
+        font-size: 0.8rem;
+    }
+
+    .product-list .product-name .amount {
+        font-size: 0.8rem;
+    }
+
+    .product-list .product-name .add-to-cart {
+        font-size: 0.6rem;
+        padding: 0rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .testimonial .carousel p {
+        transform: translate(-0%, 5%);
+    }
+
+    .lower-hashtag .quote .hashtag-image {
+        margin-bottom: 30px;
+        height: 12vh;
+    }
+
+    .lower-hashtag .sign-up {
+        margin-top: 150px;
+    }
+
+    .lower-hashtag .sign-up h2 {
+        font-size: 1.5rem;
+    }
+
+    .lower-hashtag .sign-up p {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .lower-hashtag .sign-up .email-box {
+        display: block;
+
+    }
+
+    .lower-hashtag .sign-up .email-box input {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .lower-hashtag .sign-up .sign-up-button {
+        display: block;
+    }
+
+    .lower-hashtag .sign-up .sign-up-button button {
+        font-size: 0.7rem;
+        padding-bottom: 23px;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+}
